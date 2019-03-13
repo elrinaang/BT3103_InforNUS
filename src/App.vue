@@ -1,23 +1,19 @@
 <template>
-  <div id="app"><NavBar /><halls /></div>
+  <div id="app">
+    <HomePage /> hi
+    <router-link :to="{ name: 'home' }">Hello</router-link>
+  </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
 import HomePage from "./components/HomePage.vue";
-import selectionPane2 from "./components/selectionPane2";
-import lodgingPane from "./components/lodgingPane";
-import halls from "./components/halls";
 
 export default {
   name: "App",
   components: {
     NavBar,
-    HomePage,
-    //selectionPane,
-    selectionPane2,
-    lodgingPane,
-    halls
+    HomePage
   }
 };
 </script>

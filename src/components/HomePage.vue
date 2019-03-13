@@ -8,9 +8,7 @@
     </div>
     <div>
       <el-button type="button" id="Lodging">Lodging</el-button>
-
       <el-button type="button" id="course"> Course </el-button>
-      <router-link to="/course" class="button">Course</router-link>
     </div>
   </body>
 </template>
