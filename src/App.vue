@@ -1,5 +1,5 @@
 <template>
-  <div id="app"><NavBar /></div>
+  <div id="app"><NavBar /><halls /></div>
 </template>
 
 <script>
